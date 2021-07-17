@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Create_Icon.exe" version="1.0.0.0" publicKeyToken="ef630253cab20378" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Create_Icon" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Create_Icon.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Create_Icon.exe" size="52704">
+      <assemblyIdentity name="Create_Icon" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PzMpvHaetc0u0Y7UDk+4f479LWPVHAzQSmhC7FsvB34=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.dll" size="4443648">
+      <assemblyIdentity name="Telerik.WinControls" version="2019.1.115.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>i2S3qUWHQ2DrnLcnnkD2QB1t/dy9CP1ozBPWwceTMZk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.GridView.dll" size="1680384">
+      <assemblyIdentity name="Telerik.WinControls.GridView" version="2019.1.115.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bEdgs3NAyArnrpNIVZxldKggzsjRHBZ/Zzrz9RgiNKg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.Themes.Crystal.dll" size="253440">
+      <assemblyIdentity name="Telerik.WinControls.Themes.Crystal" version="2019.1.115.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FHTMHu3c43tkHUycIhG2PTroIMOPhYCFEKI7dAFPVvk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.UI.dll" size="5807104">
+      <assemblyIdentity name="Telerik.WinControls.UI" version="2019.1.115.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Xr0wWmCuSzb3hp9fTSXsnvekJguM7eefaLqvUK9t5R8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TelerikCommon.dll" size="344576">
+      <assemblyIdentity name="TelerikCommon" version="2019.1.115.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zrjFh6tMPoee78gE7na8dq3gNyfqPHtqI/yJw0MPNlc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Create_Icon.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ibSJhBWt6kT1jcg30WbAXCZJOzy699/zUdgGnXs5g9w=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-2FID7VV\Mahdi" issuerKeyHash="5e95dcb73470817775239ca2afdf653e9f48486b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8oVzAD0d22YPNKCH3G04zsXe+Rohie7Bvms49ffGo9E=</DigestValue></Reference></SignedInfo><SignatureValue>jauLBy13ec+IY7OEMvpGe2cE26BoCQ9EMpXHaIm5GX+WjvP212lARx+cPvLQ57C2KlbyOCVEl3jBWeOVsq8AqH/0hLQ8C5H1RlZdsy3+ez/WvmtuEXi1LH+vPiAK1C7iybEMH3481HQPOQpOPyEOuw9NA/VSVGK/ZiuDl2YLgSY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wlTpmmwHFdk27SRBt2lc4+WG17U9DvjM1cD9qNmXjIWZM0eaKb0xjy/BlZeL80/22yZQizUtW8UFoNfxenEVkltxeqcyXIgGKmS3kCQ39oV1yfwTmhCINPn2n4B6DHGKOAuq7J1KL3Z2jutJAkQRZhu5bZ4eMGp1voUTlwXSIH0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d1a3c6f7f5386bbec1ee89211af9dec5ce386ddc87a0340f66db1d3d007385f2" Description="" Url=""><as:assemblyIdentity name="Create_Icon.exe" version="1.0.0.0" publicKeyToken="ef630253cab20378" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2FID7VV\Mahdi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>U4BzDgXTudunki8MFeQ2NRdfu2gD2cz0e56KjW3mf/o=</DigestValue></Reference></SignedInfo><SignatureValue>R/QcPYRNg7KB4xvNrd8uN2yMbqgL04n8b1Vs6klwT7m9uRrquPUWXEgW84je3HnWFP9FkYIAYo/KrUzaGoqCWefWauCNBjg219F736nF837VijJ1hoh+jGpY109k4AUFpm6TEDI/s3SYxK0hInbJfnQz6TaafZxwozzzy5TeN7I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wlTpmmwHFdk27SRBt2lc4+WG17U9DvjM1cD9qNmXjIWZM0eaKb0xjy/BlZeL80/22yZQizUtW8UFoNfxenEVkltxeqcyXIgGKmS3kCQ39oV1yfwTmhCINPn2n4B6DHGKOAuq7J1KL3Z2jutJAkQRZhu5bZ4eMGp1voUTlwXSIH0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYv4c77+1drFNjbHPNWXNYzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADIARgBJAEQANwBWAFYAXABNAGEAaABkAGkwHhcNMTkwODI3MjEwOTA0WhcNMjAwODI3MDMwOTA0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADIARgBJAEQANwBWAFYAXABNAGEAaABkAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMJU6ZpsBxXZNu0kQbdpXOPlhte1PQ74zNXA/ajZl4yFmTNHmim9MY8vwZWXi/NP9tsmUIs1LVvFBaDX8XpxFZJbcXqnMlyIBipkt5AkN/aFdcn8E5oQiDT59p+AegxxijgLquydSi92do7rSQJEEWYbuW2eHjBqdb6FE5cF0iB9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAMuSb0abnzsLpwgiRHDs+SwJb0HKwzfx3+wHWM7OndjfyI3oXeTUwMlLD79xrz6NuCuNkvkVPliXyChXHi+mtg+HS6Vmah2ktYauLlTDwb6KlHke0jZfUwEUmi9t0mDbACRoDjIXVu52lHnU3k4uUZWNYf5/7nzejz2iZGIQhE28=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

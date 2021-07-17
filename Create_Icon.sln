@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create_Icon", "Create_Icon\Create_Icon.csproj", "{ECDE6CD8-23E6-45D4-9916-D55D34CEEFCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECDE6CD8-23E6-45D4-9916-D55D34CEEFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDE6CD8-23E6-45D4-9916-D55D34CEEFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDE6CD8-23E6-45D4-9916-D55D34CEEFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDE6CD8-23E6-45D4-9916-D55D34CEEFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC4B809E-C5FA-4B3B-9DC8-B7E3A66581C8}
+	EndGlobalSection
+EndGlobal
